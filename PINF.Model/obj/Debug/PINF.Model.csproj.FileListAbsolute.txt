@@ -1,0 +1,4 @@
+D:\IV godina\PINF\PINF.Model\bin\Debug\PINF.Model.dll
+D:\IV godina\PINF\PINF.Model\bin\Debug\PINF.Model.pdb
+D:\IV godina\PINF\PINF.Model\obj\Debug\PINF.Model.dll
+D:\IV godina\PINF\PINF.Model\obj\Debug\PINF.Model.pdb

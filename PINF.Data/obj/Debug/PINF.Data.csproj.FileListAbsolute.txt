@@ -1,0 +1,14 @@
+D:\IV godina\PINF\PINF.Data\bin\Debug\PINF.Data.dll.config
+D:\IV godina\PINF\PINF.Data\bin\Debug\PINF.Data.dll
+D:\IV godina\PINF\PINF.Data\bin\Debug\PINF.Data.pdb
+D:\IV godina\PINF\PINF.Data\bin\Debug\EntityFramework.dll
+D:\IV godina\PINF\PINF.Data\bin\Debug\EntityFramework.SqlServer.dll
+D:\IV godina\PINF\PINF.Data\bin\Debug\PINF.Model.dll
+D:\IV godina\PINF\PINF.Data\bin\Debug\PINF.Model.pdb
+D:\IV godina\PINF\PINF.Data\bin\Debug\EntityFramework.xml
+D:\IV godina\PINF\PINF.Data\bin\Debug\EntityFramework.SqlServer.xml
+D:\IV godina\PINF\PINF.Data\obj\Debug\PINF.Data.csprojResolveAssemblyReference.cache
+D:\IV godina\PINF\PINF.Data\obj\Debug\PINF.Data.dll
+D:\IV godina\PINF\PINF.Data\obj\Debug\PINF.Data.pdb
+D:\IV godina\PINF\PINF.Data\obj\Debug\PINF.Data.csproj.GenerateResource.Cache
+D:\IV godina\PINF\PINF.Data\obj\Debug\PINF.Data.Migrations.m1.resources
