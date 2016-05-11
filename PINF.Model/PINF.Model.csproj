@@ -40,9 +40,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Model\AnalitikaIzvoda.cs" />
+    <Compile Include="Model\banka.cs" />
+    <Compile Include="Model\DnevnoStanjeRacuna.cs" />
+    <Compile Include="Model\Drzava.cs" />
     <Compile Include="Model\IModelBase.cs" />
+    <Compile Include="Model\Klijent.cs" />
+    <Compile Include="Model\KursnaLista.cs" />
+    <Compile Include="Model\KursUValuti.cs" />
+    <Compile Include="Model\NaseljenoMesto.cs" />
+    <Compile Include="Model\RacunPravnihLica.cs" />
+    <Compile Include="Model\Ukidanje.cs" />
     <Compile Include="Model\User.cs" />
     <Compile Include="Model\UserRole.cs" />
+    <Compile Include="Model\Valuta.cs" />
+    <Compile Include="Model\VrstePlacanja.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

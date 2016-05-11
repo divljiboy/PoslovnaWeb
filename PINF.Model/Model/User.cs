@@ -1,3 +1,4 @@
+
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -17,6 +18,7 @@ namespace PINF.Model.Model
         //za registraciju ako bude trebalo
         //za sad uvek true
         private bool activated;
+       
 
         public int Id { get; set; }
 
@@ -112,5 +114,8 @@ namespace PINF.Model.Model
                 activated = value;
             }
         }
+
+        
     }
 }
+
