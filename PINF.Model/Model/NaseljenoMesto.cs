@@ -6,12 +6,15 @@ using System.Threading.Tasks;
 
 namespace PINF.Model.Model
 {
-    class NaseljenoMesto : IModelBase
+    public class NaseljenoMesto : IModelBase
     {
         public int Id { get; set; }
         public string Naziv { get; set; }
         public string PttOznaka { get; set; }
-        public Drzava drzava { get; set; }
+
+        public int DrzavaId { get; set; }
+        public Drzava Drzava { get; set; }
+
         private ICollection<AnalitikaIzvoda> _izvodi;
         internal ICollection<AnalitikaIzvoda> Izvodi
         {

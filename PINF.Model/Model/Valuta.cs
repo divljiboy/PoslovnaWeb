@@ -6,24 +6,29 @@ using System.Threading.Tasks;
 
 namespace PINF.Model.Model
 {
-    class Valuta : IModelBase
+    public class Valuta : IModelBase
     {
 
         public int Id {get; set;}
         public string ZvanicnaSifra { get; set; }
         public string Naziv { get; set; }
         public bool Domicilna { get; set; }
+
+        public int DrzavaId { get; set; }
+        public Drzava Drzava { get; set; }
+
+
         private ICollection<KursUValuti> _osnovneValute;
         private ICollection<KursUValuti> _premaValuti;
 
-        private ICollection<RacunPravnihLica> _racuniPravnihLica;
-        private ICollection<Drzava> _drzave;
+        private ICollection<RacunKlijent> _racuniPravnihLica;
+        private ICollection<AnalitikaIzvoda> _izvodi;
 
-        internal ICollection<KursUValuti> OsnovneValute
+        public ICollection<KursUValuti> OsnovneValute
         {
             get
             {
-                return _osnovneValute;
+                return _osnovneValute ?? (new HashSet<KursUValuti>());
             }
 
             set
@@ -32,9 +37,9 @@ namespace PINF.Model.Model
             }
         }
 
-        
 
-        internal ICollection<KursUValuti> PremaValuti
+
+        public ICollection<KursUValuti> PremaValuti
         {
             get
             {
@@ -47,7 +52,7 @@ namespace PINF.Model.Model
             }
         }
 
-        internal ICollection<RacunPravnihLica> RacuniPravnihLica
+        public ICollection<RacunKlijent> RacuniPravnihLica
         {
             get
             {
@@ -60,21 +65,8 @@ namespace PINF.Model.Model
             }
         }
 
-        internal ICollection<Drzava> Drzave
-        {
-            get
-            {
-                return _drzave;
-            }
 
-            set
-            {
-                _drzave = value;
-            }
-        }
-
-      
-        internal ICollection<AnalitikaIzvoda> Izvodi
+        public ICollection<AnalitikaIzvoda> Izvodi
         {
             get
             {
@@ -86,8 +78,6 @@ namespace PINF.Model.Model
                 _izvodi = value;
             }
         }
-
-        private ICollection<AnalitikaIzvoda> _izvodi;
 
     }
 }

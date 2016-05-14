@@ -6,12 +6,14 @@ using System.Threading.Tasks;
 
 namespace PINF.Model.Model
 {
-    class Ukidanje : IModelBase
+    public class Ukidanje : IModelBase
     {
         public int Id { get; set; }
-        public DateTime datumUkidanje { get; set; }
+        public DateTime DatumUkidanje { get; set; }
         public string RacunZaPrenos { get; set; }
-        public RacunPravnihLica Racuni { get; set; }
+
+        public int RacuniId { get; set; }
+        public RacunKlijent Racuni { get; set; }
 
 
     }

@@ -10,8 +10,8 @@ namespace PINF.Data
 
         #region DbSets
 
-        public IDbSet<UserRole> DbUserRole { get; set; }
-        public IDbSet<User> DbUser { get; set; }
+        public IDbSet<KorisnikUloga> DbUserRole { get; set; }
+        public IDbSet<Korisnik> DbUser { get; set; }
 
         #endregion DbSets
 

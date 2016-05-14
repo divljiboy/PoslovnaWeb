@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace PINF.Model.Model
 {
-    public class UserRole : IModelBase
+    public class KorisnikUloga : IModelBase
     {
         public const string ADMIN = "ADMIN";
 

@@ -6,22 +6,21 @@ using System.Threading.Tasks;
 
 namespace PINF.Model.Model
 {
-    class Klijent:User
+    public class Klijent : IModelBase
     {
-      
-        private ICollection<RacunPravnihLica> racuni;
+        public int Id { get; set; }
+        public string Naziv { get; set; }
+        public string Mesto { get; set; }
+        public string Adresa { get; set; }
+        public string Telefon { get; set; }
+        public string Email { get; set; }
+        public string Faks { get; set; }
+        public string OdgovornoLice { get; set; }
+        public string NazivDelatnosti { get; set; }
+        public int? SifraDelatnosti { get; set; }
+        public int? PIB { get; set; }
 
-        internal ICollection<RacunPravnihLica> Racuni
-        {
-            get
-            {
-                return racuni;
-            }
+        public ICollection<RacunKlijent> Racuni { get; set; }
 
-            set
-            {
-                racuni = value;
-            }
-        }
     }
 }

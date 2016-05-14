@@ -6,18 +6,20 @@ using System.Threading.Tasks;
 
 namespace PINF.Model.Model
 {
-    class Drzava : IModelBase
+    public class Drzava : IModelBase
     {
         public int Id { get; set; }
-        public string Naziv;
-        public Valuta valuta { get; set; }
+        public string Naziv { get; set; }
+
+        public ICollection<Valuta> Valute { get; set; }
+
         private ICollection<NaseljenoMesto> _naseljenaMesta;
 
-        internal ICollection<NaseljenoMesto> NaseljenaMesta
+        public ICollection<NaseljenoMesto> NaseljenaMesta
         {
             get
             {
-                return _naseljenaMesta;
+                return _naseljenaMesta == null ? new HashSet<NaseljenoMesto>() : _naseljenaMesta;
             }
 
             set

@@ -2,7 +2,7 @@
 
 namespace PINF.Data.Configurations
 {
-    public class UserConfiguration : ModelBaseConfiguration<User>
+    public class UserConfiguration : ModelBaseConfiguration<Korisnik>
     {
         public UserConfiguration()
         {

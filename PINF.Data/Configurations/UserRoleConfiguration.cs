@@ -2,7 +2,7 @@
 
 namespace PINF.Data.Configurations
 {
-    public class UserRoleConfiguration : ModelBaseConfiguration<UserRole>
+    public class UserRoleConfiguration : ModelBaseConfiguration<KorisnikUloga>
     {
         public UserRoleConfiguration()
         {

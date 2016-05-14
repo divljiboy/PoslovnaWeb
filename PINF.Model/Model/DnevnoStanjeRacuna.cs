@@ -6,29 +6,20 @@ using System.Threading.Tasks;
 
 namespace PINF.Model.Model
 {
-    class DnevnoStanjeRacuna : IModelBase
+    public class DnevnoStanjeRacuna : IModelBase
     {
-        
+
         public int Id { get; set; }
         public DateTime DatumPrometa { get; set; }
         public decimal PrethodnoStanje { get; set; }
         public decimal PrometUKorist { get; set; }
         public decimal PrometNaTeret { get; set; }
         public decimal NovoStanje { get; set; }
-        public RacunPravnihLica racunPravnihLica { get; set; }
-        private ICollection<AnalitikaIzvoda> _izvodi;
-        internal ICollection<AnalitikaIzvoda> Izvodi
-        {
-            get
-            {
-                return _izvodi;
-            }
 
-            set
-            {
-                _izvodi = value;
-            }
-        }
+        public int RacunPravnihLicaId {get;set;}
+        public RacunKlijent RacunPravnihLica { get; set; }
+
+        public ICollection<AnalitikaIzvoda> Izvodi { get; set; }
 
         
 

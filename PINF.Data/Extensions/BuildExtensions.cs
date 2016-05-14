@@ -6,7 +6,7 @@ namespace PINF.Data.Extensions
 {
     public static class BuildExtensions
     {
-        public static IQueryable<User> BuildUser(this IQueryable<User> query)
+        public static IQueryable<Korisnik> BuildUser(this IQueryable<Korisnik> query)
         {
             return query.
                 Include(x => x.Role);

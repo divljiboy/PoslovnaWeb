@@ -7,14 +7,14 @@ using System.Threading.Tasks;
 
 namespace PINF.Model.Model
 {
-    public class User : IModelBase
+    public class Korisnik : IModelBase
     {
         private string firstName;
         private string lastName;
         private string email;
         private string password;
         private byte[] photo;
-        private UserRole role;
+        private KorisnikUloga role;
         //za registraciju ako bude trebalo
         //za sad uvek true
         private bool activated;
@@ -88,7 +88,7 @@ namespace PINF.Model.Model
         }
         
         public int RoleId { get; set; }
-        public UserRole Role
+        public KorisnikUloga Role
         {
             get
             {

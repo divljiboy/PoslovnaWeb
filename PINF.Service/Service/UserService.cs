@@ -10,12 +10,12 @@ using System.Threading.Tasks;
 
 namespace PINF.Service.Service
 {
-    public interface IUserService : IService<User>
+    public interface IUserService : IService<Korisnik>
     {
 
     }
 
-    public class UserService : ServiceBase<User> , IUserService
+    public class UserService : ServiceBase<Korisnik> , IUserService
     {
         private readonly IUserRepository repository;
         private readonly IUnitOfWork unitOfWork;

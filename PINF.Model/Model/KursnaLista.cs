@@ -6,20 +6,23 @@ using System.Threading.Tasks;
 
 namespace PINF.Model.Model
 {
-    class KursnaLista : IModelBase
+    public class KursnaLista : IModelBase
     {
         public int Id { get; set; }
         public DateTime datum { get; set; }
         public int BrojKursneListe { get; set; }
         public DateTime PrimenjujeSeOd { get; set; }
-        public Banka banka { get; set; }
-        private ICollection<KursUValuti> _kurseviUValuti;
 
-        internal ICollection<KursUValuti> KurseviUValuti
+        public int BankaId { get; set; }
+        public Banka Banka { get; set; }
+
+
+        private ICollection<KursUValuti> _kurseviUValuti;
+        public ICollection<KursUValuti> KurseviUValuti
         {
             get
             {
-                return _kurseviUValuti;
+                return _kurseviUValuti == null ? new HashSet<KursUValuti>() : _kurseviUValuti;
             }
 
             set

@@ -17,7 +17,12 @@ namespace PINF.Data.Migrations
         {
             context.DbUserRole.AddOrUpdate(
                 x => x.Role,
-                new UserRole { Role = UserRole.ADMIN, About = "Administrator" }
+                new KorisnikUloga {Id = 1, Role = KorisnikUloga.ADMIN, About = "Administrator" }
+            );
+
+            context.DbUser.AddOrUpdate(
+                x => x.Email,
+                new Korisnik { FirstName = "DivljiBoj93" , LastName = "lalala" , Password = "1" , Email = "1@gmail.com", RoleId = 1 }
             );
         }
     }
