@@ -76,6 +76,10 @@
     <Compile Include="Migrations\201605052334355_m1.Designer.cs">
       <DependentUpon>201605052334355_m1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201605142032233_m2.cs" />
+    <Compile Include="Migrations\201605142032233_m2.Designer.cs">
+      <DependentUpon>201605142032233_m2.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="PINFContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -104,6 +108,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201605052334355_m1.resx">
       <DependentUpon>201605052334355_m1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201605142032233_m2.resx">
+      <DependentUpon>201605142032233_m2.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

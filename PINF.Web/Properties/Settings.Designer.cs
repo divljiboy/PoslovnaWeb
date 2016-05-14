@@ -26,9 +26,9 @@ namespace PINF.Web.Properties {
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
-        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=DDESKTOP-QS3OS72\\SQLEXPRESS;Initial Catalog=PINF;Integrated Security=" +
-            "True;Connect Timeout=15;Encrypt=False;TrustServerCertificate=False;ApplicationIn" +
-            "tent=ReadWrite;MultiSubnetFailover=False")]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=DESKTOP-QS3OS72\\SQLEXPRESS;Initial Catalog=PINF;Integrated Security=T" +
+            "rue;Connect Timeout=15;Encrypt=False;TrustServerCertificate=False;ApplicationInt" +
+            "ent=ReadWrite;MultiSubnetFailover=False")]
         public string PINFConnection {
             get {
                 return ((string)(this["PINFConnection"]));

@@ -6,3 +6,4 @@ C:\Users\ivan\Desktop\PoslovnaWeb\PINF.Model\bin\Debug\PINF.Model.dll
 C:\Users\ivan\Desktop\PoslovnaWeb\PINF.Model\bin\Debug\PINF.Model.pdb
 C:\Users\ivan\Desktop\PoslovnaWeb\PINF.Model\obj\Debug\PINF.Model.dll
 C:\Users\ivan\Desktop\PoslovnaWeb\PINF.Model\obj\Debug\PINF.Model.pdb
+C:\Users\ivan\Desktop\PoslovnaWeb\PINF.Model\obj\Debug\PINF.Model.csprojResolveAssemblyReference.cache
