@@ -12,6 +12,18 @@ namespace PINF.Data
 
         public IDbSet<KorisnikUloga> DbUserRole { get; set; }
         public IDbSet<Korisnik> DbUser { get; set; }
+        public IDbSet<Drzava> DbDrzava { get; set; }
+        public IDbSet<NaseljenoMesto> DbNaseljenoMesto { get; set; }
+        public IDbSet<VrstePlacanja> DbVrstePlacanja { get; set; }
+        public IDbSet<DnevnoStanjeRacuna> DbDnevnoStanjeRacuna { get; set; }
+        public IDbSet<AnalitikaIzvoda> DbAnalitikaIzvoda { get; set; }
+        public IDbSet<Banka> DbBanka { get; set; }
+        public IDbSet<Klijent> DbKlijent { get; set; }
+        public IDbSet<KursnaLista> DbKursnaLista { get; set; }
+        public IDbSet<KursUValuti> DbKursUValuti { get; set; }
+        public IDbSet<RacunKlijent> DbRacunKlijent { get; set; }
+        public IDbSet<Ukidanje> DbUkidanje { get; set; }
+        public IDbSet<Valuta> DbValuta { get; set; }
 
         #endregion DbSets
 
