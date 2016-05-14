@@ -16,8 +16,8 @@ namespace PINF.Model.Model
         public decimal PrometNaTeret { get; set; }
         public decimal NovoStanje { get; set; }
 
-        public int RacunPravnihLicaId {get;set;}
-        public RacunKlijent RacunPravnihLica { get; set; }
+        public int RacunKlijentId {get;set;}
+        public RacunKlijent RacuniKlijenata { get; set; }
 
         public ICollection<AnalitikaIzvoda> Izvodi { get; set; }
 

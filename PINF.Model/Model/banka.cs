@@ -19,7 +19,7 @@ namespace PINF.Model.Model
         public string Faks { get; set; }
         //public bool Banka { get; set; }
 
-        public ICollection<RacunKlijent> Racuni { get; set; }
+        public ICollection<RacunKlijent> RacuniKlijenata { get; set; }
         public ICollection<KursnaLista> KursneListe { get; set; }
 
         

@@ -14,6 +14,11 @@ namespace PINF.Data.Configurations
         {
             Property(x => x.Naziv).IsRequired().HasMaxLength(60);
             Property(x => x.PttOznaka).IsRequired().HasMaxLength(12);
+
+            HasRequired(x => x.Drzava).WithMany(x => x.NaseljenaMesta).HasForeignKey(x => x.DrzavaId);
+
+            
+
         }
         
     }

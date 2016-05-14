@@ -21,7 +21,7 @@ namespace PINF.Model.Model
         private ICollection<KursUValuti> _osnovneValute;
         private ICollection<KursUValuti> _premaValuti;
 
-        private ICollection<RacunKlijent> _racuniPravnihLica;
+        public ICollection<RacunKlijent> RacuniKlijenata { get; set; }
         private ICollection<AnalitikaIzvoda> _izvodi;
 
         public ICollection<KursUValuti> OsnovneValute
@@ -52,18 +52,7 @@ namespace PINF.Model.Model
             }
         }
 
-        public ICollection<RacunKlijent> RacuniPravnihLica
-        {
-            get
-            {
-                return _racuniPravnihLica;
-            }
-
-            set
-            {
-                _racuniPravnihLica = value;
-            }
-        }
+       
 
 
         public ICollection<AnalitikaIzvoda> Izvodi

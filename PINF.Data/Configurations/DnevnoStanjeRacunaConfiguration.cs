@@ -17,6 +17,9 @@ namespace PINF.Data.Configurations
             Property( x => x.PrethodnoStanje).IsRequired().HasPrecision(15, 2);
             Property( x => x.PrometNaTeret).IsRequired().HasPrecision(15, 2);
             Property( x => x.PrometUKorist).IsRequired().HasPrecision(15, 2);
+
+
+            HasRequired(x => x.RacuniKlijenata).WithMany(x => x.DnevnoStanjeracuna).HasForeignKey(x => x.RacunKlijentId);
         }
     }
 }

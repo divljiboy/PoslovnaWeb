@@ -15,19 +15,8 @@ namespace PINF.Model.Model
         public int DrzavaId { get; set; }
         public Drzava Drzava { get; set; }
 
-        private ICollection<AnalitikaIzvoda> _izvodi;
-        internal ICollection<AnalitikaIzvoda> Izvodi
-        {
-            get
-            {
-                return _izvodi;
-            }
-
-            set
-            {
-                _izvodi = value;
-            }
-        }
+        public ICollection<AnalitikaIzvoda> Izvodi { get; set; }
+        
 
        
     }

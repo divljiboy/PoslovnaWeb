@@ -49,12 +49,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Configurations\AnalitikaIzvodaConfiguration.cs" />
+    <Compile Include="Configurations\BankaConfiguration.cs" />
     <Compile Include="Configurations\DnevnoStanjeRacunaConfiguration.cs" />
     <Compile Include="Configurations\DrzavaConfiguration.cs" />
+    <Compile Include="Configurations\KlijentConfiguration.cs" />
+    <Compile Include="Configurations\KursnaListaConfiguration.cs" />
+    <Compile Include="Configurations\KursUValutiConfiguration.cs" />
     <Compile Include="Configurations\ModelBaseConfiguration.cs" />
     <Compile Include="Configurations\NaseljenoMestoConfiguration.cs" />
+    <Compile Include="Configurations\RacunKlijentConfiguration.cs" />
+    <Compile Include="Configurations\UkidanjaConfiguration.cs" />
     <Compile Include="Configurations\UserConfiguration.cs" />
     <Compile Include="Configurations\UserRoleConfiguration.cs" />
+    <Compile Include="Configurations\ValutaConfiguration.cs" />
     <Compile Include="Configurations\VrstePlacanjaConfiguration.cs" />
     <Compile Include="Extensions\BuildExtensions.cs" />
     <Compile Include="Infrastructure\DbFactory.cs" />

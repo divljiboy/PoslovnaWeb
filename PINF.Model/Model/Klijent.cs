@@ -9,8 +9,11 @@ namespace PINF.Model.Model
     public class Klijent : IModelBase
     {
         public int Id { get; set; }
+        //naziv = ime+prezime
         public string Naziv { get; set; }
-        public string Mesto { get; set; }
+
+        public int NaseljenoMestoId{get; set;}
+        public NaseljenoMesto NaseljenoMesto { get; set; }
         public string Adresa { get; set; }
         public string Telefon { get; set; }
         public string Email { get; set; }
@@ -20,7 +23,7 @@ namespace PINF.Model.Model
         public int? SifraDelatnosti { get; set; }
         public int? PIB { get; set; }
 
-        public ICollection<RacunKlijent> Racuni { get; set; }
+        public ICollection<RacunKlijent> RacuniKlijenata { get; set; }
 
     }
 }

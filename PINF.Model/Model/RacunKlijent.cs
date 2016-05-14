@@ -34,7 +34,7 @@ namespace PINF.Model.Model
 
 
         private ICollection<DnevnoStanjeRacuna> _dnevnostanjeracuna;
-        public ICollection<DnevnoStanjeRacuna> Dnevnostanjeracuna
+        public ICollection<DnevnoStanjeRacuna> DnevnoStanjeracuna
         {
             get
             {
