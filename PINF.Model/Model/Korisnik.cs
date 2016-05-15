@@ -17,6 +17,7 @@ namespace PINF.Model.Model
         private KorisnikUloga role;
         //za registraciju ako bude trebalo
         //za sad uvek true
+        //i sad asdasfjks;djfklsdfklsjddlfkjsdklfjlasdkjflskdjflskdjflksdjflksjdlkfjskdlfj
         private bool activated;
        
 
