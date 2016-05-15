@@ -20,3 +20,14 @@ C:\Users\ivan\Desktop\PoslovnaWeb\PINF.Service\bin\Debug\EntityFramework.xml
 C:\Users\ivan\Desktop\PoslovnaWeb\PINF.Service\obj\Debug\PINF.Service.csprojResolveAssemblyReference.cache
 C:\Users\ivan\Desktop\PoslovnaWeb\PINF.Service\obj\Debug\PINF.Service.dll
 C:\Users\ivan\Desktop\PoslovnaWeb\PINF.Service\obj\Debug\PINF.Service.pdb
+D:\IV godina\__PINF-WEB\PINF.Service\bin\Debug\PINF.Service.dll
+D:\IV godina\__PINF-WEB\PINF.Service\bin\Debug\PINF.Service.pdb
+D:\IV godina\__PINF-WEB\PINF.Service\bin\Debug\PINF.Data.dll
+D:\IV godina\__PINF-WEB\PINF.Service\bin\Debug\PINF.Model.dll
+D:\IV godina\__PINF-WEB\PINF.Service\bin\Debug\EntityFramework.dll
+D:\IV godina\__PINF-WEB\PINF.Service\bin\Debug\PINF.Data.pdb
+D:\IV godina\__PINF-WEB\PINF.Service\bin\Debug\PINF.Model.pdb
+D:\IV godina\__PINF-WEB\PINF.Service\bin\Debug\EntityFramework.xml
+D:\IV godina\__PINF-WEB\PINF.Service\obj\Debug\PINF.Service.csprojResolveAssemblyReference.cache
+D:\IV godina\__PINF-WEB\PINF.Service\obj\Debug\PINF.Service.dll
+D:\IV godina\__PINF-WEB\PINF.Service\obj\Debug\PINF.Service.pdb
