@@ -9,6 +9,7 @@ namespace PINF.Model.Model
     public class KursnaLista : IModelBase
     {
         public int Id { get; set; }
+        //bhgjhgjhgjhghj
         public DateTime datum { get; set; }
         public int BrojKursneListe { get; set; }
         public DateTime PrimenjujeSeOd { get; set; }
